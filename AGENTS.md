@@ -33,8 +33,12 @@ Judge every change against: *does it help surface the exact right list?*
 
 ## Where it lives & how it's built
 
-- **This folder is the git repository.** Own GitHub repo: `marsch124/AMS-Packing`.
-  Live online (GitHub Pages) at **https://marsch124.github.io/AMS-Packing/**.
+- **This folder is the git repository.** Own GitHub repo: `marsch124/AMS-Packing-Web-Helper`
+  (called `marsch124/AMS-Packing` until 22 Nov 2026 — renamed so it is not confused with
+  `marsch124/AMS-Packing-App`, the iPhone and Mac app that is replacing it).
+  Live online (GitHub Pages) at **https://marsch124.github.io/AMS-Packing-Web-Helper/**.
+- **Keep it.** The iPhone/Mac app's tests read `js/model.js` from this repository on every
+  run (its parity check), and its share links open this web app for people without the app.
 - **No build step.** Plain vanilla-JavaScript PWA. The key files:
   - `index.html` — the shell and the bottom navigation bar (incl. the tab icons).
   - `js/app.js` — the entire user interface.
